@@ -1,0 +1,17 @@
+ul {
+  padding: 0;
+  li {
+    list-style: none;
+  }
+}
+
+img {
+  width: 48px;
+}
+
+#forecast-cnt {
+  display: flex;
+  div {
+    padding: 0 1rem;
+  }
+}

@@ -1,0 +1,19 @@
+ul {
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+
+img {
+  width: 48px;
+}
+
+#forecast-cnt {
+  display: flex;
+}
+#forecast-cnt div {
+  padding: 0 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */

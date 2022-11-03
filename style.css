@@ -9,11 +9,31 @@ img {
   width: 48px;
 }
 
+h4{
+margin:0;
+}
+
 #forecast-cnt {
   display: flex;
+  overflow-x: scroll;
+max-width:100%;
+border:1px solid #555;
+margin-bottom:10px;
+background: antiquewhite;
 }
 #forecast-cnt div {
+ min-width: 120px;
   padding: 0 1rem;
+}
+#forecast-details {
+display: flex;
+overflow-y: scroll;
+	border:1px solid #555;
+}
+
+#forecast-details div:nth-child(odd){
+	background:#eee;
+	min-width: 80px;
 }
 
 /*# sourceMappingURL=style.css.map */
